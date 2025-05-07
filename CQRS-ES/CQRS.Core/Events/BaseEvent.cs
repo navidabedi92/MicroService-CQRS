@@ -11,7 +11,7 @@ namespace CQRS.Core.Events
     {
         protected BaseEvent(string type)
         {
-            this.Type = type
+            this.Type = type;
         }
         public int Version { get; set; }
 
