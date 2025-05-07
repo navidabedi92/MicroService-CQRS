@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Domain", "Post.Q
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Query.Infrastructure", "Post.Query\Post.Query.Infrastructure\Post.Query.Infrastructure.csproj", "{1929D290-350C-C445-3981-311D9AF0A674}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Post.Common", "Post.Common\Post.Common.csproj", "{EE87F0B9-40E0-49B1-9945-BACEDAFAF76B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,8 +53,15 @@ Global
 		{1929D290-350C-C445-3981-311D9AF0A674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1929D290-350C-C445-3981-311D9AF0A674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1929D290-350C-C445-3981-311D9AF0A674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE87F0B9-40E0-49B1-9945-BACEDAFAF76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE87F0B9-40E0-49B1-9945-BACEDAFAF76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE87F0B9-40E0-49B1-9945-BACEDAFAF76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE87F0B9-40E0-49B1-9945-BACEDAFAF76B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8115E480-5819-446A-BCF4-F07932D0199B}
 	EndGlobalSection
 EndGlobal
